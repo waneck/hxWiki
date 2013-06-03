@@ -146,10 +146,10 @@ em {
 }
 
 h1 {
-	color				: #c35700;
-	font-size			: 17pt;
+	color				: #222;
+	font-size			: 19pt;
 	margin-top			: -6px;
-	margin-bottom		: 5px;
+	margin-bottom		: 8px;
 }
 
 .view h1 {
@@ -331,7 +331,7 @@ textarea {
 	font-size			: 9pt;
 	width				: 640px;
 	height				: 300px;
-	background-color	: #eef7fd;
+	background-color	: #fafafa;
 	padding				: 5px 0px 0px 5px;
 	border				: 1px solid #CCC;
 }
@@ -355,7 +355,7 @@ textarea {
 	padding-bottom		: 3px;
 	font-family: 'Dosis', sans-serif;
 /*	font-weight			: bold;*/
-	font-size			: 9.5pt;
+	font-size			: 13pt;
 }
 
 span.button a {
@@ -435,7 +435,7 @@ span.button a {
 
 #notification, .error, #notification.error {	/* haxe_ie6.css, haxe_ie7.css */
 	margin				: 45px 0px -20px 45px;
-	padding				: 10px 10px 10px 55px;
+	padding				: 10px 10px 5px 20px;
 	width				: 570px;
 	background-position	: top left;
 	background-repeat	: no-repeat;
@@ -446,6 +446,11 @@ span.button a {
 #notification {
 	background-color	: #f8f8f8;
 
+	border				: 1px solid #CCC;
+	color				: #333;
+}
+
+#notification:before {
 	font-family: 'FontAwesome';
 	font-weight: normal;
 	font-style: normal;
@@ -454,8 +459,6 @@ span.button a {
 	margin-right: .3em;
 	content: "\f058";
 
-	border				: 1px solid #CCC;
-	color				: #333;
 }
 
 /*f057*/
