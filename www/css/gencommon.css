@@ -292,7 +292,7 @@ pre.xml .comment, pre.xml .string, pre.html .comment, pre.html .string, pre.haxe
 }
 
 pre.haxe .kwd {
-	color : #009;
+	color : #6821DB;
 }
 
 pre.haxe .type, pre.haxe .number {
@@ -300,7 +300,7 @@ pre.haxe .type, pre.haxe .number {
 }
 
 pre.haxe .string {
-	color : red;
+	color : #F25A5A;
 }
 
 pre.haxe .op {
@@ -368,10 +368,8 @@ span.button a {
 }
 
 .content input.button:hover, span.button a:hover{
-/*	background-image	: url('/img/gencommon/buttons/button1_hover.png'); */
-	color: #EEE;
-	background-color: #CCC;
-	border: 1px solid #EEE;
+	background-image	: url('/img/gencommon/buttons/button0_hover.gif');
+	border: 1px solid #70bdeb;
 }
 
 /* LAYOUT STRUCTURE */
@@ -558,10 +556,8 @@ ul.menu li a:hover {
 }
 
 .login input.button:hover, .search input.button:hover {
-/*	background-image	: url('/img/gencommon/buttons/button_ok_hover.png');*/
-	background-color: #333;
-	border: 1px solid #999;
-	color				: #EEE;
+	background-image	: url('/img/gencommon/buttons/button0_hover.gif');
+	border: 1px solid #70bdeb;
 }
 
 .links {
@@ -645,8 +641,8 @@ ul.buttons li {
 	display				: inline-block;
 	margin-right		: 5px;
 	padding				: 2px 0px;
-	background			: #f4fafd url('/img/gencommon/buttons/button0.gif') repeat-x bottom left;
-	border				: 1px solid #bde1f6;
+	background-color: #EEE;
+	border: 1px solid #CCC;
 	font-size			: 9pt;
 	min-width			: 20px;
 	text-align			: center;
@@ -658,7 +654,7 @@ ul.buttons li a {
 }
 
 ul.buttons li:hover {
-	background			: #f8fcfe url('/img/gencommon/buttons/button0_hover.gif');
+	background		: #f8fcfe url('/img/gencommon/buttons/button0_hover.gif');
 	border-color		: #70bdeb;
 }
 
@@ -1002,6 +998,12 @@ dl.user dd {
 
 .calendar {
 	margin-top : 120px;
+	color: #888;
+}
+
+.calendar a {
+	font-weight: bold;
+	color: #000;
 }
 
 .calendar table {
@@ -1018,7 +1020,7 @@ dl.user dd {
 }
 
 .links {
-	margin-top : 320px;
+	margin-top : 360px;
 }
 
 .menu2 {
