@@ -271,8 +271,8 @@ ul {
 }
 
 pre {
-	background-color	: #eff8fd;
-	border 				: 1px dashed #c2d9e6;
+	background-color	: #f6f6f6;
+	border 				: 1px dashed #ccc;
 	padding 			: 5px;
 	margin 				: 10px 10px 30px 10px;
 	overflow			: auto;
@@ -293,8 +293,6 @@ pre.xml .comment, pre.xml .string, pre.html .comment, pre.html .string, pre.haxe
 
 pre.haxe .kwd {
 	color : #009;
-	font-family: 'Dosis', sans-serif;
-/*	font-weight : bold;*/
 }
 
 pre.haxe .type, pre.haxe .number {
@@ -306,7 +304,6 @@ pre.haxe .string {
 }
 
 pre.haxe .op {
-	font-family: 'Dosis', sans-serif;
 /*	font-weight : bold;*/
 }
 
@@ -449,8 +446,16 @@ span.button a {
 
 /*f058*/
 #notification {
-	background-color	: #f0f8fd;
-	background-image	: url('/img/gencommon/items/confirm.gif');
+	background-color	: #f8f8f8;
+
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f058";
+
 	border				: 1px solid #CCC;
 	color				: #333;
 }
@@ -458,7 +463,15 @@ span.button a {
 /*f057*/
 .error, #notification.error {
 	background-color	: #ffefa3;
-	background-image	: url('/img/gencommon/items/error.gif');
+
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f058";
+
 	border				: 1px solid #d85700;
 	color				: #bf4d00;
 }
