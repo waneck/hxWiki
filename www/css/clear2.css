@@ -433,7 +433,7 @@ span.button a {
 	text-align: center;
 }
 
-.blog.post, .blog.posts, .blog.main.posts {
+.blog.post, .blog.posts, .blog.main .posts {
 	text-align: center;
 }
 
@@ -526,6 +526,7 @@ ul.menu li a:hover {
 }
 
 .login {
+	display: none;
 	margin-top			: 45px;
 }
 
