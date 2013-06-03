@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Dosis:600|Ubuntu|Ubuntu+Mono);
+@import url(http://fonts.googleapis.com/css?family=Dosis:600|Old+Standard+TT|Ubuntu+Mono);
 
 /** inlined font awesome support **/
 @font-face {
@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
 }
 
 body {
-	font-family			: 'Ubuntu', sans-serif;
+	font-family			: 'Old Standard TT', sans-serif;
 	font-size			: 10.5pt;
 }
 
@@ -327,7 +327,7 @@ input.field {
 }
 
 textarea {
-	font-family			: 'Ubuntu', sans-serif;
+	font-family			: 'Old Standard TT', sans-serif;
 	font-size			: 9pt;
 	width				: 640px;
 	height				: 300px;
