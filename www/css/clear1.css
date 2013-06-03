@@ -175,7 +175,7 @@ ul {
 
 /*f10c*/
 .view ul:before {
-	/*list-style-image	: url('/img/gencommon/items/ul_spot.gif');
+	/*list-style-image	: url('/img/clear1/items/ul_spot.gif');
 	list-style-position	: outside;*/
 	font-family: 'FontAwesome';
 	font-weight: normal;
@@ -214,7 +214,7 @@ ul {
 }
 /*f138*/
 .view .biglist li:before {
-/*	background-image	: url('/img/gencommon/items/ul_spot2.gif');
+/*	background-image	: url('/img/clear1/items/ul_spot2.gif');
 	background-position	: 0px 2px;
 	background-repeat	: no-repeat;
 	padding-left		: 24px;*/
@@ -232,7 +232,7 @@ ul {
 }
 /*f10c*/
 .view .biglist ul ul li:before {
-	/*list-style-image 	: url('/img/gencommon/items/ul_spot.gif');
+	/*list-style-image 	: url('/img/clear1/items/ul_spot.gif');
 	background 			: none;
 	padding-left 		: 0px;*/
 
@@ -347,7 +347,7 @@ textarea {
 }
 
 .content input.button, span.button a {
-/*	background			: transparent url('/img/gencommon/buttons/button1.png') top left no-repeat;*/
+/*	background			: transparent url('/img/clear1/buttons/button1.png') top left no-repeat;*/
 	background-color: #EEE;
 	border: 1px solid #CCC;
 	color				: #333;
@@ -370,14 +370,14 @@ span.button a {
 }
 
 .content input.button:hover, span.button a:hover{
-	background-image	: url('/img/gencommon/buttons/button0_hover.gif');
+	background-image	: url('/img/clear1/buttons/button0_hover.gif');
 	border: 1px solid #70bdeb;
 }
 
 /* LAYOUT STRUCTURE */
 
 .all { /* haxe_ie6.css */
-	/*background			: #fff url('/img/gencommon/bg_main.gif') top left repeat-x;
+	/*background			: #fff url('/img/clear1/bg_main.gif') top left repeat-x;
 	background-position	: 0px 0px;*/
 }
 
@@ -392,7 +392,7 @@ span.button a {
 
 .header {
 	height				: 101px;
-	background-image	: url('/img/gencommon/logo_haxe.gif');
+	background-image	: url('/img/clear1/logo_haxe.gif');
 	background-position: 100px;
 	width				: 1151px;
 	padding-top			: 1px; /** patch for ffbox bug **/
@@ -554,7 +554,7 @@ ul.menu li a:hover {
 }
 
 .login input.button, .search input.button {
-/*	background-image	: url('/img/gencommon/buttons/button_ok.png');*/
+/*	background-image	: url('/img/clear1/buttons/button_ok.png');*/
 	background-color: #EEE;
 	border: 1px solid #CCC;
 	color				: #333;
@@ -563,7 +563,7 @@ ul.menu li a:hover {
 }
 
 .login input.button:hover, .search input.button:hover {
-	background-image	: url('/img/gencommon/buttons/button0_hover.gif');
+	background-image	: url('/img/clear1/buttons/button0_hover.gif');
 	border: 1px solid #70bdeb;
 }
 
@@ -581,7 +581,7 @@ ul.menu li a:hover {
 	content: "\f138";
 }
 .links li {
-	/*background			: transparent url('/img/gencommon/items/ul_spot3.gif') no-repeat left center;*/
+	/*background			: transparent url('/img/clear1/items/ul_spot3.gif') no-repeat left center;*/
 	margin-bottom		: 5px;
 	padding-left		: 15px;
 }
@@ -661,7 +661,7 @@ ul.buttons li a {
 }
 
 ul.buttons li:hover {
-	background		: #f8fcfe url('/img/gencommon/buttons/button0_hover.gif');
+	background		: #f8fcfe url('/img/clear1/buttons/button0_hover.gif');
 	border-color		: #70bdeb;
 }
 
@@ -694,7 +694,7 @@ table.history th {
 	font-variant		: small-caps;
 	font-size			: 12pt
 	height				: 30px;
-	background			: #c8e3f9 url('/img/gencommon/items/bg_th1.gif') top left repeat-x;
+	background			: #c8e3f9 url('/img/clear1/items/bg_th1.gif') top left repeat-x;
 }
 
 table.history td, table.history th {
@@ -768,7 +768,7 @@ ul.map .browse:before {
 	content: "\f0f6";
 }
 ul.map .browse {
-	/*background 			: url('/img/gencommon/items/plus.gif') no-repeat left center;*/
+	/*background 			: url('/img/clear1/items/plus.gif') no-repeat left center;*/
 	cursor		: pointer;
 }
 /*f016*/
@@ -837,7 +837,7 @@ p.browse {
 /*f116*/
 .api_index ul li span.pack:before {
 	/*padding-left		: 20px;
-	background-image	: url('/img/gencommon/items/plus.gif');
+	background-image	: url('/img/clear1/items/plus.gif');
 	background-repeat	: no-repeat;
 	/*font-weight			: bold;*/
 	font-family: 'FontAwesome';
@@ -963,7 +963,7 @@ dl.user {
 	padding				: 5px;
 	-moz-border-radius	: 5px;
 	border				: 1px solid #c2d9e6;
-	background			: #e7f4fc url('/img/gencommon/items/bg_box1.gif') top left repeat-x;
+	background			: #e7f4fc url('/img/clear1/items/bg_box1.gif') top left repeat-x;
 	color				: #333;
 	min-height			: 100px;
 	width				: 300px;
@@ -990,13 +990,13 @@ dl.user dd {
 }
 
 .box1 { /* blue */
-	background			: #e8f5fc url('/img/gencommon/items/bg_box1.gif') top left repeat-x;
+	background			: #e8f5fc url('/img/clear1/items/bg_box1.gif') top left repeat-x;
 	border				: 4px solid #e8f5fc;
 	color				: #333;
 }
 
 .box2 { /* orange */
-	background			: #ffefa3 url('/img/gencommon/items/bg_box2.gif') top left repeat-x;
+	background			: #ffefa3 url('/img/clear1/items/bg_box2.gif') top left repeat-x;
 	border				: 4px solid #ffefa3;
 	color				: #c35700;
 }
