@@ -470,7 +470,7 @@ span.button a {
 	border				: 1px solid #d85700;
 }
 
-.error:before, #notification.error {
+.error:before, #notification.error:before {
 	font-family: 'FontAwesome';
 	font-weight: normal;
 	font-style: normal;
