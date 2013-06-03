@@ -24,7 +24,7 @@ h1, h2, h3, h4 {
 
 body {
 	font-family			: 'Old Standard TT', sans-serif;
-	font-size			: 10.5pt;
+	font-size			: 12pt;
 }
 
 a {
@@ -32,7 +32,6 @@ a {
 }
 
 strong, b {
-	color				: #031E2F;
 }
 
 a.broken {
@@ -142,7 +141,6 @@ a.extern:before {
 }
 
 em {
-	color				: #c35700;
 }
 
 h1 {
@@ -276,7 +274,11 @@ pre {
 	padding 			: 5px;
 	margin 				: 10px 10px 30px 10px;
 	overflow			: auto;
-	font-family: 'Ubuntu Mono', sans-serif;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+code, blockquote, cite, q {
+	font-family: 'Ubuntu Mono', monospace;
 }
 
 .diff pre {
@@ -465,16 +467,18 @@ span.button a {
 .error, #notification.error {
 	background-color	: #ffefa3;
 
+	border				: 1px solid #d85700;
+}
+
+.error:before, #notification.error {
 	font-family: 'FontAwesome';
 	font-weight: normal;
 	font-style: normal;
 	text-decoration: inherit;
 	-webkit-font-smoothing: antialiased;
 	margin-right: .3em;
-	content: "\f058";
+	content: "\f057";
 
-	border				: 1px solid #d85700;
-	color				: #bf4d00;
 }
 
 .error {
@@ -1112,17 +1116,23 @@ dl.user dd {
 }*/
 
 .blog .view {
-	margin-top : 20px;
+	/*margin-top : 20px;*/
+}
+
+.comments p {
+	margin-bottom : 5px;
+}
+
+.editor form {
+	margin-top: 30px;	
 }
 
 .blog .date {
 	color : #888;
-	font-size : 10pt;
 }
 
 .blog .user {
 	color : #333;
-	font-size : 10pt;
 }
 
 /* COMMENTS */

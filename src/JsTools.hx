@@ -1,7 +1,7 @@
 import js.JQuery;
 import Editor;
 
-class JsTools {
+@:expose class JsTools {
 
 	static function submitForm( f : js.html.FormElement ) {
 		var x = js.Browser.createXMLHttpRequest();
