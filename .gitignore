@@ -2,6 +2,7 @@
 *.n
 /config.xml
 /www/app.js
+/www/temploc2
 /www/upload.swf
 *.xml
 /www/css/shiro.css
