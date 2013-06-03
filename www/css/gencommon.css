@@ -57,7 +57,7 @@ a.file, a.extern {
 }
 
 
-a.extern {
+a.extern:before {
 	font-family: 'FontAwesome';
 	font-weight: normal;
 	font-style: normal;
@@ -69,7 +69,7 @@ a.extern {
 	padding-right		: 16px;*/
 }
 
-.file_zip, .file_tgz, .file_gz {
+.file_zip:before, .file_tgz:before, .file_gz:before {
 	font-family: 'FontAwesome';
 	font-weight: normal;
 	font-style: normal;
@@ -79,7 +79,7 @@ a.extern {
 	content: "\f016";
 }
 
-.file_exe, .file_dmg {
+.file_exe:before, .file_dmg:before {
 	font-family: 'FontAwesome';
 	font-weight: normal;
 	font-style: normal;
@@ -90,30 +90,55 @@ a.extern {
 }
 
 /*f06e*/
-.file_gif, .file_jpg, .file_png  {
-	background-image	: url('/img/common/img.gif');
-	padding-right		: 21px;
+.file_gif:before, .file_jpg:before, .file_png:before  {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f06e";
 }
 
 /*f0f6*/
-.file_pdf {
-	background-image	: url('/img/common/pdf.gif');
-	padding-right		: 16px;
+.file_pdf:before {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f0f6";
 }
 /*f0f6*/
-.file_txt {
-	background-image	: url('/img/common/txt.gif');
-	padding-right		: 18px;
+.file_txt:before {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f0f6";
 }
 /*f016*/
-.file_swf {
-	background-image	: url('/img/common/swf.gif');
-	padding-right		: 20px;
+.file_swf:before {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f016";
 }
 /*f0f6*/
-.file_xml {
-	background-image	: url('/img/common/xml.gif');
-	padding-right		: 20px;
+.file_xml:before {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f0f6";
 }
 
 em {
@@ -151,15 +176,32 @@ ul {
 }
 
 /*f10c*/
+.view ul:before {
+	/*list-style-image	: url('/img/gencommon/items/ul_spot.gif');
+	list-style-position	: outside;*/
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f10c";
+}
 .view ul {
-	list-style-image	: url('/img/gencommon/items/ul_spot.gif');
-	list-style-position	: outside;
-	margin				: 5px 0px 25px 22px;
+	margin				: 5px 0px 25px 5px;
 }
 /*f0da*/
+.view ul ul:before {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f0da";
+}
 .view ul ul {
-	list-style-image	: url('/img/gencommon/items/ul_spot4.gif');
-	margin				: 5px 0px 5px 25px;
+	margin				: 5px 0px 5px 5px;
 }
 
 .view ul li {
@@ -173,19 +215,38 @@ ul {
 	margin-left			: 10px;
 }
 /*f138*/
-.view .biglist li {
-	background-image	: url('/img/gencommon/items/ul_spot2.gif');
+.view .biglist li:before {
+/*	background-image	: url('/img/gencommon/items/ul_spot2.gif');
 	background-position	: 0px 2px;
 	background-repeat	: no-repeat;
-	padding-left		: 24px;
+	padding-left		: 24px;*/
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f138";
+}
+.view .biglist li {
 	margin-bottom		: 20px;
 	text-align			: justify;
 }
 /*f10c*/
-.view .biglist ul ul li {
-	list-style-image 	: url('/img/gencommon/items/ul_spot.gif');
+.view .biglist ul ul li:before {
+	/*list-style-image 	: url('/img/gencommon/items/ul_spot.gif');
 	background 			: none;
-	padding-left 		: 0px;
+	padding-left 		: 0px;*/
+
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f10c";
+}
+.view .biglist ul ul li {
 	margin-bottom 		: 1px;
 }
 
@@ -681,13 +742,30 @@ ul.map .no_content, ul.map .browse {
 }
 
 /*f116*/
+ul.map .browse:before {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f0f6";
+}
 ul.map .browse {
-	background 			: url('/img/gencommon/items/plus.gif') no-repeat left center;
+	/*background 			: url('/img/gencommon/items/plus.gif') no-repeat left center;*/
 	cursor		: pointer;
 }
 /*f016*/
-ul.map .no_content {
-	background 			: url('/img/common/txt2.gif') no-repeat 1px center;
+ul.map .no_content:before {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f016";
+
+/*	background 			: url('/img/common/txt2.gif') no-repeat 1px center;*/
 }
 
 /* BROWSE */
@@ -741,18 +819,34 @@ p.browse {
 	background-color	: #fff;
 }
 /*f116*/
-.api_index ul li span.pack {
-	padding-left		: 20px;
+.api_index ul li span.pack:before {
+	/*padding-left		: 20px;
 	background-image	: url('/img/gencommon/items/plus.gif');
 	background-repeat	: no-repeat;
 	/*font-weight			: bold;*/
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f116";
+}
+.api_index ul lu span.pack {
 	font-family: 'Dosis', sans-serif;
 }
 /*f016*/
-.api_index ul li a.intern {
-	padding-left		: 20px;
+.api_index ul li a.intern:before {
+	/*padding-left		: 20px;
 	background-image	: url('/img/common/txt2.gif');
-	background-repeat	: no-repeat;
+	background-repeat	: no-repeat;*/
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f016";
 }
 
 .api a {
@@ -797,12 +891,19 @@ p.browse {
 /* SEARCH */
 /*f0da*/
 ul.results li {
-	padding				: 3px 0px 3px 20px;
-	background-image	: url('/img/gencommon/items/ul_spot4.gif');
-	background-position	: 5px 10px;
-	background-repeat	: no-repeat;
+	padding				: 3px 0px 3px 0px;
 	margin-bottom		: 5px;
 	-moz-border-radius	: 10px;
+}
+
+ul.results li:before {
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	margin-right: .3em;
+	content: "\f0da";
 }
 
 ul.results li:hover {
