@@ -392,7 +392,7 @@ span.button a {
 
 .header {
 	height				: 101px;
-	width				: 1151px;
+	width				: 963px;
 	padding-top			: 1px; /** patch for ffbox bug **/
 	margin-bottom		: -1px; /** patch for ffbox bug **/
 }
@@ -400,7 +400,7 @@ span.button a {
 .header .home {
 	background-image	: url('/img/clear2/logo_haxe.gif');
 	background-repeat: no-repeat;
-	margin: 50px auto;
+	margin: 50px 35px;
 	cursor 				: pointer;
 	width 				: 265px;
 	height				: 45px;
@@ -433,7 +433,7 @@ span.button a {
 	text-align: center;
 }
 
-.blog.post, .blog.posts, .blog.main {
+.blog.post, .blog.posts, .blog.main.posts {
 	text-align: center;
 }
 
